@@ -2,7 +2,7 @@
 
 ![tgmdlm](pics/tgmdlm.png)
 
-Accepted by AAAI-24, check our paper at https://arxiv.org/abs/2402.13040.
+Accepted by AAAI-24, check our paper at https://arxiv.org/abs/2402.13040
 If you find it useful, please consider citing:
 ```
 @article{gong2024text,
