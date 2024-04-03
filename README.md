@@ -31,6 +31,8 @@ If you find it useful, please consider citing:
 3. Train model for Phase One: `python train.py`
 4. Train model for Phase Two: `python train_correct_withmask.py`
 
+Note: For this model it always needs more than 100,000 steps of training before sampling so you can get a normal result. The perfomance converges long after the convergence of the loss. The loss may finally converges to around 0.015.
+
 ## Sampling
 1. `python text_sample.py; python post_sample.py` The final file `OURMODEL_OUTPUT.txt` is our output.
 
