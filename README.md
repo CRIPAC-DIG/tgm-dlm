@@ -31,7 +31,8 @@ If you find it useful, please consider citing:
 3. Train model for Phase One: `python train.py`
 4. Train model for Phase Two: `python train_correct_withmask.py`
 
-Note: For this model it always needs more than 100,000 steps of training before sampling so you can get a normal result. The perfomance converges long after the convergence of the loss. The loss may finally converges to around 0.015.
+The following details are important for you to know before you actually train this model by yourself!
+1) For this model it always needs more than 100,000 steps of training before sampling so you can get a normal result. The perfomance converges long after the convergence of the loss. 2) The loss will finally converges to around 0.015. It is possible that the loss in your experiment will not converge to 0.015 (below 0.02) and stuck at a relative high value (such as 0.08), we suggest you re-run the training procedure with another random seed. Normally, the loss should converge really quickly to below 0.02 within 15,000 steps. If your loss doesn't behave so, just try another time :)  3) We havn't got any idea why this problem will show up. I did observe once that the loss stuck at a high value, and another researcher reach to me after running my code and report this problem also.  
 
 ## Sampling
 1. `python text_sample.py; python post_sample.py` The final file `OURMODEL_OUTPUT.txt` is our output.
