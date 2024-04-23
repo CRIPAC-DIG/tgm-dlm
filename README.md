@@ -56,5 +56,5 @@ Please cite our paper if you use the code:
 }
 ```
 
-### Acknowledge
+## Acknowledge
 This code is based on https://github.com/XiangLi1999/Diffusion-LM and https://github.com/blender-nlp/MolT5
