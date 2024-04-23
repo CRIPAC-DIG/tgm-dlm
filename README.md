@@ -3,14 +3,14 @@
 ![tgmdlm](pics/tgmdlm.png)
 
 
-This is the code for the AAAI 2024 Paper: [Text-Guided Molecule Generation with Diffusion Language Model](https://arxiv.org/abs/2402.13040v1). We have implemented our methods in Pytorch.（This code is based on https://github.com/XiangLi1999/Diffusion-LM and https://github.com/blender-nlp/MolT5）
+This is the code for the AAAI 2024 Paper: [Text-Guided Molecule Generation with Diffusion Language Model](https://arxiv.org/abs/2402.13040v1).
 
-## Paper data and code
+## Usage
+
+### Paper data
 
 1. Install Package `cd TGMDLMCODE; pip install -e improved-diffusion/; pip install -e transformers/`.
 2. Download [Scibert](https://huggingface.co/allenai/scibert_scivocab_uncased) and put it into file `scibert`.
-
-## Usage
 
 ### Training
 1. `cd improved-diffusion; cd scripts`
@@ -55,3 +55,6 @@ Please cite our paper if you use the code:
   pages={109-117}
 }
 ```
+
+### Acknowledge
+This code is based on https://github.com/XiangLi1999/Diffusion-LM and https://github.com/blender-nlp/MolT5
