@@ -32,9 +32,7 @@ you can evaluate all metrics except for Text2Mol by runnning `ev.py`. For Text2M
 ## Requirements
 
 - python3
-- jsonlines
 - pytorch
-- torch-geometric
 - transformers (Be careful to follow the readme installation exactly.)
 
 ## Citation
