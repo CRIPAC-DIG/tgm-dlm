@@ -152,7 +152,8 @@ def create_argparser():
         learn_sigma=False, 
         log_interval=20, 
         logits_mode=1, 
-        lr=0.0001, 
+        lr = 0.00005
+        # lr=0.0001, # Lower the learing rate in 2024/5/5 for better convergence 
         lr_anneal_steps=200000, 
         microbatch=-1, 
         modality='e2e-tgt', 
