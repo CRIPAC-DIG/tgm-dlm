@@ -29,6 +29,9 @@ The following details are important for you to know before you actually train th
 ### Evaluation
 you can evaluate all metrics except for Text2Mol by runnning `ev.py`. For Text2Mol please go to [MolT5](https://github.com/blender-nlp/MolT5) for more details.
 
+## About Checkpoints
+Several friends have already contacted me through this repo and reproduced the results. Although this repo hasn't provided the checkpoint of the complete training run yet, @JokerQianwei generously provided his trained phase 1 checkpoint at https://github.com/CRIPAC-DIG/tgm-dlm/issues/1#issuecomment-2996169452. This checkpoint was trained for 120,000 steps. Although it's fewer than the planned training steps (200,000), it has already provided good results for reference.
+
 ## Requirements
 
 - python3
